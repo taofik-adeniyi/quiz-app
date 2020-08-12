@@ -1,0 +1,28 @@
+{
+    "quiz_questions": [
+      {
+        "id": 1,
+        "instruction_text": "How many continents are there on Planet Earth?",
+        "answer_options": ["Five", "Six", "Seven", "Eight"],
+        "answer": "Seven"
+      },
+      {
+        "id": 2,
+        "instruction_text": "What's your favorite number?",
+        "answer_options": ["One", "Two", "Three", "Four"],
+        "answer": "Four"
+      },
+      {
+        "id": 3,
+        "instruction_text": "Your Last Name?",
+        "answer_options": ["Chelsea", "Damon", "Dora", "Paolo Costa"],
+        "answer": "Four"
+      },
+      {
+        "id": 4,
+        "instruction_text": "Your Firstname Here?",
+        "answer_options": ["Khabib Numagomedov", "Israel Adesanya", "Yoel Romero", "Kamaru Usman"],
+        "answer": "Four"
+      }
+    ]
+  }

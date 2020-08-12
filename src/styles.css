@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+    box-sizing: border-box;
+}
+.one {
+    width: 70%;
+    height: 70px;
+    border-bottom: 2px solid blue;
+    margin: 15px auto;
+}
+.sign {
+    width: 100px;
+    padding: 2px;
+    margin: 2px;
+}
+.two {
+    width: 70%;
+    border: 2px solid blue;
+    margin: 10px auto;
+}
+.firstrow {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.firstrow h3 {
+    padding-left: 25px;
+    padding-top: 5px;
+}
+.submit button {
+    width: 90px;
+    padding: 10px;
+    margin: 17px 0 0 70%;
+}
+.questionbody {
+    width: 92%;
+    border: 2px solid blue;
+    margin: 25px auto;
+}
+.question {
+    border-bottom: 2px solid blue;
+    padding: 25px 5px 25px 20px
+}
+.questionsoption {
+    margin: 10px 0 10px 0;
+    border-bottom: 2px solid blue;
+}
+.questionsoption ul {
+    margin: 0;
+    padding: 0;
+}
+.questionsoption ul li {
+    list-style-type: none;
+    line-height: 1.5em;
+    margin: 4px 0 4px 0;
+    border-bottom: 1px solid #333;
+}
+.controlbutton {
+    height: 50px;
+}
+.controlbutton button {
+    margin: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    width: 150px;
+    height: 35px;
+}
+.questioninlogicalselection {
+    border: 2px solid blue;
+    margin: 10px auto 40px auto;
+    width: 90%;
+    padding: 10px;
+}
+.questioninlogicalselection button {
+    margin: 2px;
+    min-width: 35px;
+}
+.one-two {
+    color: blue;
+}
+.primary {
+    color: orange;
+}
+.font-xl {
+    font-size: 72px;
+}
