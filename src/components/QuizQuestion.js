@@ -4,12 +4,6 @@ import PageNextQuestion from './PageNextQuestion'
 
 function QuizQuestion(props) {
 
-    const [able, setAble] = useState('')
-    
-    // const mee = ((props.id === 1) (setAble('disabled')))
-
-    // const nee = ((props.id > 1 && === props.pgnxtqHandler.length) (setAble('disabled')))
-
     return (
         <div>
             <div className="two">
@@ -44,10 +38,10 @@ function QuizQuestion(props) {
                     </div>
                 
                     <div className="controlbutton">
-                        <button onClick={props.prvqHandler} disabled="">
+                        <button onClick={props.prvqHandler} disabled={props.drup}>
                             Previous
                         </button>
-                        <button onClick={props.nxtqHandler}>
+                        <button onClick={props.nxtqHandler} disabled={props.dable}>
                             Next Questions
                         </button>   
                     </div> 
@@ -63,7 +57,6 @@ function QuizQuestion(props) {
                                     {id.id}
                                 </button>
                             )
-                            // <PageNextQuestion id={id.id} key={index} />
                         })
                     }
                 </div>
