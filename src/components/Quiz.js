@@ -10,8 +10,9 @@ function Quiz() {
     const quizQuestion = quizData.quiz_questions[quizPosition]
      
 
-    function quizEnd (){
-
+    function showNumber(lolo) {
+        setQuizPosition(lolo)
+        // console.log('33-Beer' + lolo)
     }
 
     function showPreviousQuestion(){
@@ -47,6 +48,7 @@ function Quiz() {
                 nxtqHandler={showNextQuestion}
                 subqHandler={submitQuiz}
                 pgnxtqHandler={quizData.quiz_questions}
+                showNumber={showNumber}
             />
             }
         </div>

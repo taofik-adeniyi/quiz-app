@@ -5,7 +5,7 @@ function QuizAnswerList(props) {
     return (
         <li>
             <div>
-            <a href="" onClick="">
+            <a href="">
                 {props.answer_text}
             </a>
             </div>
